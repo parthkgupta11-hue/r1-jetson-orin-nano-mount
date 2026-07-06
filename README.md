@@ -2,6 +2,8 @@
 
 A 3D-printable, slide-in mount for attaching an NVIDIA Jetson Orin Nano (or Orin Nano Super) Developer Kit to the back of a Unitree R1 humanoid robot. The Nano slides into the mount and can be removed just as easily — no tools needed to swap the module in or out. The mount itself is secured to the R1's existing M4 attachment points.
 
+![Assembly Render](Assembly%20Render.png)
+
 ## Compatibility
 
 Designed around the **NVIDIA Jetson Orin Nano Developer Kit** (4GB/8GB, carrier board form factor). This also fits the **Jetson Orin Nano Super Developer Kit** — NVIDIA has confirmed the Super kit uses the exact same carrier board and module hardware as the standard kit; the "Super" designation is a firmware/software update only, so the physical footprint and mounting holes are identical.
