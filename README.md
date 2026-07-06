@@ -2,8 +2,6 @@
 
 A 3D-printable, slide-in mount for attaching an NVIDIA Jetson Orin Nano (or Orin Nano Super) Developer Kit to the back of a Unitree R1 humanoid robot. The Nano slides into the mount and can be removed just as easily — no tools needed to swap the module in or out. The mount itself is secured to the R1's existing M4 attachment points.
 
-![Assembled mount render](docs/images/assembly-render.png)
-
 ## Compatibility
 
 Designed around the **NVIDIA Jetson Orin Nano Developer Kit** (4GB/8GB, carrier board form factor). This also fits the **Jetson Orin Nano Super Developer Kit** — NVIDIA has confirmed the Super kit uses the exact same carrier board and module hardware as the standard kit; the "Super" designation is a firmware/software update only, so the physical footprint and mounting holes are identical.
@@ -14,11 +12,9 @@ If you're using a bare SO-DIMM module on a different carrier board (rather than 
 
 | File | Function | Attachment | Hole spec |
 |---|---|---|---|
-| `Part1_R1_Baseplate.stl` | Slide-rail bracket that bolts to the R1's back panel; the Nano sled slides into this | Mounts to R1's existing M4 screw holes | 4× 5.6 mm holes for M4 heat-set inserts |
-| `Part2_Housing_Shell.stl` | Outer shell/cover around the Nano; has cutouts for the power button and Wi-Fi/BT antenna connectors | Joins to the end cap (below) with M4 screws | 4.4 mm clearance holes for M4 screws · 1× 12 mm hole for the Nano's power button · 6.5 mm holes for antenna connectors |
-| `Part2_Housing_EndCap.stl` | End cap that closes the housing shell | Receives screws from the shell above | 5.6 mm holes for M4 heat-set inserts |
-
-> Filenames above are suggestions — rename the exported STLs to something like this so the repo is understandable without opening OnShape. See "Before you post this" below.
+| `R1 Backplate.stl/step` | Slide-rail bracket that bolts to the R1's back panel; the Nano sled slides into this | Mounts to R1's existing M4 screw holes | 4× 5.6 mm holes for M4 heat-set inserts |
+| `Nano Housing - Part 1.stl/step` | Outer shell/cover around the Nano; has cutouts for the power button and Wi-Fi/BT antenna connectors | Joins to the end cap (below) with M4 screws | 4.4 mm clearance holes for M4 screws · 1× 12 mm hole for the Nano's power button · 6.5 mm holes for antenna connectors |
+| `Nano Housing - Part 2.stl/step` | End cap that closes the housing shell | Receives screws from the shell above | 5.6 mm holes for M4 heat-set inserts |
 
 ## Bill of Materials
 
@@ -47,7 +43,7 @@ If you're using a bare SO-DIMM module on a different carrier board (rather than 
 
 ## Source Files
 
-Editable CAD (OnShape, parametric): [link to OnShape document](https://cad.onshape.com/documents/4870ae7b7abf8141c113cbe3/w/747d7f00118be55340bf33ef/e/ac8754d0635a8b6524a612b2)
+Editable CAD (OnShape, parametric):(https://cad.onshape.com/documents/4870ae7b7abf8141c113cbe3/w/747d7f00118be55340bf33ef/e/ac8754d0635a8b6524a612b2)
 
 ## License
 
