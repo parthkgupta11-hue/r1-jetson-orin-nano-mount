@@ -41,7 +41,7 @@ If you're using a bare SO-DIMM module on a different carrier board (rather than 
 3. Bolt the baseplate to the R1's back-mounted M4 attachment points.
 4. Slide the Jetson Orin Nano into the baseplate's rails.
 5. Fit the housing shell over the Nano, aligning the button and antenna cutouts.
-6. Attach the end cap to the shell with M4 screws through the 4.1 mm clearance holes into the heat-set inserts.
+6. Attach the end cap to the shell with M4 screws through the 4.4 mm clearance holes into the heat-set inserts.
 
 ## Source Files
 
